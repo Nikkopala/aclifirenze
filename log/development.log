@@ -1,0 +1,2548 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-11-23 21:53:06) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+Completed in 59ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-23 22:36:00) [GET]
+
+ActionController::RoutingError (No route matches "/Sey/hello" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-23 22:59:52) [GET]
+
+ActionController::RoutingError (No route matches "/Sey/hello" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-23 22:59:58) [GET]
+
+ActionController::RoutingError (No route matches "/Sey/hello" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (114.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (223.6ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `name` varchar(255), `surname` varchar(255), `password` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (33.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('1')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-26 16:33:55) [GET]
+
+ActionController::RoutingError (No route matches "/user/index" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 16:33:59) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=index):
+  app/controllers/users_controller.rb:16:in `show'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:34:05) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/users/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-26 16:34:16) [GET]
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/users
+Rendering users/new
+Completed in 113ms (View: 109, DB: 1) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-11-26 16:34:42) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "user"=>{"name"=>"francesco", "password"=>"pippo", "surname"=>"potestio", "society"=>"colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `updated_at`, `surname`, `password`, `society`) VALUES('francesco', '2010-11-26 15:34:42', '2010-11-26 15:34:42', 'potestio', 'pippo', 'colonnata')[0m
+  [4;35;1mSQL (52.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed in 60ms (DB: 54) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 16:34:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-11-26 16:34:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 16:34:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-11-26 16:34:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:34:53) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 8ms (View: 4, DB: 2) | 200 OK [http://localhost/users/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:37:43) [GET]
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/users/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-26 16:47:21) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/users
+Rendering users/new
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-11-26 16:48:13) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "user"=>{"name"=>"sandro", "password"=>"pluto", "surname"=>"mehic", "society"=>"colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `updated_at`, `surname`, `password`, `society`) VALUES('sandro', '2010-11-26 15:48:13', '2010-11-26 15:48:13', 'mehic', 'pluto', 'colonnata')[0m
+  [4;36;1mSQL (74.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/users/2
+Completed in 81ms (DB: 75) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 16:48:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/users/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:48:18) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;36;1mUser Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-11-26 16:48:34) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/users/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:48:37) [GET]
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 55ms (View: 5, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 16:49:00) [GET]
+  Parameters: {"id"=>"index"}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=index):
+  app/controllers/users_controller.rb:16:in `show'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 16:49:06) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/users/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (20101126161205)
+  [4;36;1mSQL (121.6ms)[0m   [0;1mCREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101126161205')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `societies`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `societies`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 17:13:22) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://localhost/users/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-26 17:13:28) [GET]
+
+ActionController::RoutingError (No route matches "/society" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 17:13:36) [GET]
+  [4;36;1mSociety Load (0.3ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+Completed in 11ms (View: 8, DB: 1) | 200 OK [http://localhost/societies]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#new (for 127.0.0.1 at 2010-11-26 17:13:43) [GET]
+  [4;35;1mSociety Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Rendering template within layouts/societies
+Rendering societies/new
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/societies/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#create (for 127.0.0.1 at 2010-11-26 17:16:11) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "society"=>{"opening_time"=>"", "tel"=>"0554487659", "email"=>"colonnata@aclifirenze.it", "base"=>"VIA GINORI,50 - 50019 SESTO FIORENTINO (FI)", "society"=>"colonnata"}}
+  [4;36;1mSociety Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSociety Create (0.2ms)[0m   [0;1mINSERT INTO `societies` (`opening_time`, `created_at`, `updated_at`, `tel`, `society`, `base`, `email`) VALUES('', '2010-11-26 16:16:11', '2010-11-26 16:16:11', '0554487659', 'colonnata', 'VIA GINORI,50 - 50019 SESTO FIORENTINO (FI)', 'colonnata@aclifirenze.it')[0m
+  [4;35;1mSQL (63.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/societies/1
+Completed in 71ms (DB: 65) | 302 Found [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#show (for 127.0.0.1 at 2010-11-26 17:16:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSociety Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSociety Load (0.2ms)[0m   [0mSELECT * FROM `societies` WHERE (`societies`.`id` = 1) [0m
+Rendering template within layouts/societies
+Rendering societies/show
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/societies/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 17:16:18) [GET]
+  [4;36;1mSociety Load (0.2ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;35;1mSociety Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 17:20:40) [GET]
+  [4;36;1mSociety Load (0.1ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;35;1mSociety Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (20101126161205)
+Migrating to CreateArticles (20101126162743)
+  [4;36;1mSQL (116.8ms)[0m   [0;1mCREATE TABLE `articles` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `title` varchar(255), `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101126162743')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-26 17:30:36) [GET]
+
+ActionController::RoutingError (No route matches "/article" with {:method=>:get}):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:30:39) [GET]
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:31:49) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1beaef8>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:53) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c11b20>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:54) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1cf9218>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:55) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b19b1b78>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:57) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1a53cc0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:58) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1b737b8>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:58) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c54420>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:36:59) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1d37220>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:37:00) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b19db478>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:37:02) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1a905f8>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:37:04) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1ba9520>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:37:06) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c8dd60>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'societies' already exists: CREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:37:46) [GET]
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:37:47) [GET]
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:37:48) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c48fd0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:02) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1ced378>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:04) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b19a3500>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:05) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1a4ed88>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:06) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1b6c828>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:07) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c4a510>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:07) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1d2d388>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:07) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b19d4038>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:08) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1a820c0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (101.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:08) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1ba1aa0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:09) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c84a08>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:09) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1d4e1a0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b19f8f00>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1adf6d0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1bda300>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (100.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1cb8da8>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1d72f50>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:10) [GET]
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1a2a0f0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:11) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1b2d6a0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:11) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1c103b0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:11) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1cee930>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:11) [GET]
+  [4;36;1mArticle Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b199f2c0>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:39:17) [GET]
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:39:18) [GET]
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 4ms (View: 1, DB: 2) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:20) [GET]
+  [4;35;1mArticle Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7fa4b1d5f220>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:39:23) [GET]
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:39:39) [GET]
+  [4;36;1mArticle Load (0.2ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:39:41) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `date' for #<Article:0x7f5527d33b90>) on line #16 of app/views/articles/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :date %><br />
+16:     <%= f.text_field :date %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :description %><br />
+
+    app/views/articles/new.html.erb:16
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.6ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'societies' already exists: CREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'societies' already exists: CREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (96.5ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (224.4ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+  [4;36;1mSQL (109.5ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `name` varchar(255), `surname` varchar(255), `password` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('1')[0m
+Migrating to CreateSocieties (2)
+  [4;36;1mSQL (121.5ms)[0m   [0;1mCREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('2')[0m
+Migrating to CreateArticles (3)
+  [4;36;1mSQL (99.4ms)[0m   [0;1mCREATE TABLE `articles` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `title` varchar(255), `date` datetime, `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('3')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+Migrating to CreateArticles (3)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 17:41:55) [GET]
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-26 17:42:02) [GET]
+  [4;35;1mUser Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/users
+Rendering users/new
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/users/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-11-26 17:42:17) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "user"=>{"name"=>"Francesco", "password"=>"pippo", "surname"=>"Potestio", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`name`, `created_at`, `updated_at`, `surname`, `password`, `society`) VALUES('Francesco', '2010-11-26 16:42:17', '2010-11-26 16:42:17', 'Potestio', 'pippo', 'Colonnata')[0m
+  [4;35;1mSQL (41.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed in 49ms (DB: 43) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 17:42:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 17:42:21) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 17:42:30) [GET]
+  [4;36;1mSociety Load (0.3ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/societies]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#new (for 127.0.0.1 at 2010-11-26 17:42:31) [GET]
+  [4;35;1mSociety Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Rendering template within layouts/societies
+Rendering societies/new
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/societies/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#create (for 127.0.0.1 at 2010-11-26 17:43:29) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "society"=>{"opening_time"=>"", "tel"=>"0554487659", "email"=>"colonnata@aclifirenze.it", "base"=>"via ginori, 52 sesto fiorentino (FI)", "society"=>"Colonnata"}}
+  [4;36;1mSociety Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSociety Create (0.2ms)[0m   [0;1mINSERT INTO `societies` (`opening_time`, `created_at`, `updated_at`, `tel`, `society`, `base`, `email`) VALUES('', '2010-11-26 16:43:29', '2010-11-26 16:43:29', '0554487659', 'Colonnata', 'via ginori, 52 sesto fiorentino (FI)', 'colonnata@aclifirenze.it')[0m
+  [4;35;1mSQL (50.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/societies/1
+Completed in 57ms (DB: 51) | 302 Found [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#show (for 127.0.0.1 at 2010-11-26 17:43:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSociety Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSociety Load (0.2ms)[0m   [0mSELECT * FROM `societies` WHERE (`societies`.`id` = 1) [0m
+Rendering template within layouts/societies
+Rendering societies/show
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/societies/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 17:43:31) [GET]
+  [4;36;1mSociety Load (0.3ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;35;1mSociety Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:43:40) [GET]
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:43:41) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+
+ActionView::TemplateError (undefined method `image' for #<Article:0x7f5527cfcbe0>) on line #24 of app/views/articles/new.html.erb:
+21:   </p>
+22:   <p>
+23:     <%= f.label :image %><br />
+24:     <%= f.text_field :image %>
+25:   </p>
+26:   <p>
+27:     <%= f.submit 'Create' %>
+
+    app/views/articles/new.html.erb:24
+    app/views/articles/new.html.erb:3
+    app/controllers/articles_controller.rb:29:in `new'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (99.5ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (223.6ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `name` varchar(255), `surname` varchar(255), `password` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('1')[0m
+Migrating to CreateSocieties (2)
+  [4;36;1mSQL (121.6ms)[0m   [0;1mCREATE TABLE `societies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `base` text, `email` varchar(255), `tel` varchar(255), `opening_time` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('2')[0m
+Migrating to CreateArticles (3)
+  [4;36;1mSQL (100.8ms)[0m   [0;1mCREATE TABLE `articles` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `society` varchar(255), `title` varchar(255), `date` datetime, `description` text, `image` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (44.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('3')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+Migrating to CreateArticles (3)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:46:21) [GET]
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/articles/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 17:46:22) [GET]
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://localhost/articles/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 17:48:10) [POST]
+  Parameters: {"article"=>{"title"=>"Pranzo del socio", "date"=>"10-12-2010", "description"=>"Pranzo djevlgjvyjvgjugjgjtgjvg pbeopsùciùbùbùùbùb\r\n\r\nbb\r\nb\r\nb\r\n15€", "image"=>"", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Create (0.5ms)[0m   [0;1mINSERT INTO `articles` (`created_at`, `title`, `updated_at`, `date`, `description`, `image`, `society`) VALUES('2010-11-26 16:48:10', 'Pranzo del socio', '2010-11-26 16:48:10', '2010-12-10 00:00:00', 'Pranzo djevlgjvyjvgjugjgjtgjvg pbeopsùciùbùbùùbùb\r\n\r\nbb\r\nb\r\nb\r\n15€', '', 'Colonnata')[0m
+  [4;35;1mSQL (42.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed in 74ms (DB: 44) | 302 Found [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-11-26 17:48:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.2ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/articles
+Rendering articles/show
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#edit (for 127.0.0.1 at 2010-11-26 17:48:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/articles
+Rendering articles/edit
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/articles/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#update (for 127.0.0.1 at 2010-11-26 17:48:51) [PUT]
+  Parameters: {"article"=>{"title"=>"Pranzo del socio", "date"=>"2010-12-10 00:00:00", "description"=>"Pranzo djevlgjvyjvgjugjgjtgjvg pbeopsùciùbùbùùbùb\r\n\r\nbb\r\nb\r\nb\r\n15€", "image"=>"http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg", "society"=>"Colonnata"}, "commit"=>"Update", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "id"=>"1"}
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArticle Update (0.3ms)[0m   [0mUPDATE `articles` SET `updated_at` = '2010-11-26 16:48:51', `image` = 'http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg' WHERE `id` = 1[0m
+  [4;36;1mSQL (54.9ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed in 63ms (DB: 56) | 302 Found [http://localhost/articles/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-11-26 17:48:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.2ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/articles
+Rendering articles/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 17:49:00) [GET]
+  [4;35;1mArticle Load (0.2ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:11:26) [GET]
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 18:11:29) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 57ms (View: 53, DB: 1) | 200 OK [http://localhost/articles/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 18:12:00) [POST]
+  Parameters: {"article"=>{"title"=>"Pranzo del socio", "date"=>"10-12-2010", "description"=>"", "image"=>"", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Load (0.4ms)[0m   [0;1mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`date` = '2010-12-10 00:00:00') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+
+NoMethodError (undefined method `image_url' for #<Article:0x7fee59fab0c8>):
+  app/controllers/articles_controller.rb:46:in `create'
+  app/controllers/articles_controller.rb:45:in `create'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 18:12:46) [POST]
+  Parameters: {"article"=>{"title"=>"Pranzo del socio", "date"=>"10-12-2010", "description"=>"", "image"=>"", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`date` = '2010-12-10 00:00:00') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:13:09) [GET]
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 18:13:16) [GET]
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/articles/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 18:13:32) [POST]
+  Parameters: {"article"=>{"title"=>"Gita", "date"=>"", "description"=>"", "image"=>"http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;35;1mArticle Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArticle Load (0.2ms)[0m   [0mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`date` IS NULL) LIMIT 1[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO `articles` (`created_at`, `title`, `updated_at`, `date`, `description`, `image`, `society`) VALUES('2010-11-26 17:13:32', 'Gita', '2010-11-26 17:13:32', NULL, '', 'http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg', 'Colonnata')[0m
+  [4;35;1mSQL (86.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2
+Completed in 95ms (DB: 88) | 302 Found [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-11-26 18:13:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.2ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+Rendering template within layouts/articles
+Rendering articles/show
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/articles/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:13:42) [GET]
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#destroy (for 127.0.0.1 at 2010-11-26 18:13:49) [DELETE]
+  Parameters: {"authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "id"=>"2"}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (0.1ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArticle Destroy (0.2ms)[0m   [0mDELETE FROM `articles` WHERE `id` = 2[0m
+  [4;36;1mSQL (59.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/articles
+Completed in 117ms (DB: 60) | 302 Found [http://localhost/articles/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:13:49) [GET]
+  [4;35;1mArticle Load (0.3ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-11-26 18:13:50) [GET]
+  [4;35;1mArticle Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/articles/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 18:14:00) [POST]
+  Parameters: {"article"=>{"title"=>"", "date"=>"10-12-2010", "description"=>"", "image"=>"http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`date` = '2010-12-10 00:00:00') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/articles
+Rendering articles/new
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-11-26 18:14:19) [POST]
+  Parameters: {"article"=>{"title"=>"", "date"=>"2010-12-11 00:00:00 UTC", "description"=>"", "image"=>"http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg", "society"=>"Colonnata"}, "commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c="}
+  [4;36;1mArticle Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Load (0.3ms)[0m   [0;1mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`date` = '2010-12-11 00:00:00') LIMIT 1[0m
+  [4;35;1mArticle Create (0.2ms)[0m   [0mINSERT INTO `articles` (`created_at`, `title`, `updated_at`, `date`, `description`, `image`, `society`) VALUES('2010-11-26 17:14:19', '', '2010-11-26 17:14:19', '2010-12-11 00:00:00', '', 'http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg', 'Colonnata')[0m
+  [4;36;1mSQL (54.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/articles/3
+Completed in 63ms (DB: 55) | 302 Found [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-11-26 18:14:20) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.2ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 3) [0m
+Rendering template within layouts/articles
+Rendering articles/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/articles/3]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:15:27) [GET]
+  [4;35;1mArticle Load (0.3ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#edit (for 127.0.0.1 at 2010-11-26 18:15:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.2ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/articles
+Rendering articles/edit
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/articles/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#update (for 127.0.0.1 at 2010-11-26 18:15:48) [PUT]
+  Parameters: {"article"=>{"title"=>"Pranzo del socio", "date"=>"2010-12-10 00:00:00", "description"=>"Pranzo\r\n15€", "image"=>"http://aclibiella.files.wordpress.com/2009/03/simbolo-acli.jpg", "society"=>"Colonnata"}, "commit"=>"Update", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "id"=>"1"}
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.1ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Load (0.4ms)[0m   [0;1mSELECT `articles`.id FROM `articles` WHERE (`articles`.`society` = BINARY 'Colonnata' AND `articles`.`title` = 'Pranzo del socio' AND `articles`.`date` = '2010-12-10 00:00:00' AND `articles`.id <> 1) LIMIT 1[0m
+  [4;35;1mArticle Update (0.2ms)[0m   [0mUPDATE `articles` SET `updated_at` = '2010-11-26 17:15:48', `description` = 'Pranzo\r\n15€' WHERE `id` = 1[0m
+  [4;36;1mSQL (77.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed in 86ms (DB: 79) | 302 Found [http://localhost/articles/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-11-26 18:15:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.2ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/articles
+Rendering articles/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-11-26 18:15:54) [GET]
+  [4;35;1mArticle Load (0.3ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/articles
+Rendering articles/index
+  [4;36;1mArticle Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 18:16:20) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 59ms (View: 8, DB: 0) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-11-26 18:16:22) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/users
+Rendering users/new
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/users/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-11-26 18:16:47) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "user"=>{"name"=>"Francesco", "password"=>"pippo", "surname"=>"Potestio", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `updated_at`, `surname`, `password`, `society`) VALUES('Francesco', '2010-11-26 17:16:47', '2010-11-26 17:16:47', 'Potestio', 'pippo', 'Colonnata')[0m
+  [4;36;1mSQL (47.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed in 54ms (DB: 48) | 302 Found [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-11-26 18:16:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-11-26 18:16:49) [GET]
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 18:16:56) [GET]
+  [4;35;1mSociety Load (0.3ms)[0m   [0mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+Completed in 65ms (View: 7, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#new (for 127.0.0.1 at 2010-11-26 18:16:57) [GET]
+  [4;36;1mSociety Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+Rendering template within layouts/societies
+Rendering societies/new
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/societies/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#create (for 127.0.0.1 at 2010-11-26 18:17:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"4wfikLISBo20d/LmJPiVNVtQlt1aKHaOr0qqJWb3p3c=", "society"=>{"opening_time"=>"", "tel"=>"0554487659", "email"=>"colonnata@aclifirenze.it", "base"=>"VIA GINORI,50 - 50019 SESTO FIORENTINO (FI)", "society"=>"Colonnata"}}
+  [4;35;1mSociety Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSociety Load (0.2ms)[0m   [0mSELECT `societies`.id FROM `societies` WHERE (`societies`.`society` = BINARY 'Colonnata') LIMIT 1[0m
+  [4;36;1mSociety Load (0.2ms)[0m   [0;1mSELECT `societies`.id FROM `societies` WHERE (`societies`.`email` = BINARY 'colonnata@aclifirenze.it') LIMIT 1[0m
+  [4;35;1mSociety Create (0.1ms)[0m   [0mINSERT INTO `societies` (`opening_time`, `created_at`, `updated_at`, `tel`, `society`, `base`, `email`) VALUES('', '2010-11-26 17:17:54', '2010-11-26 17:17:54', '0554487659', 'Colonnata', 'VIA GINORI,50 - 50019 SESTO FIORENTINO (FI)', 'colonnata@aclifirenze.it')[0m
+  [4;36;1mSQL (445.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/societies/1
+Completed in 455ms (DB: 446) | 302 Found [http://localhost/societies]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#show (for 127.0.0.1 at 2010-11-26 18:17:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSociety Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+  [4;36;1mSociety Load (0.2ms)[0m   [0;1mSELECT * FROM `societies` WHERE (`societies`.`id` = 1) [0m
+Rendering template within layouts/societies
+Rendering societies/show
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/societies/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 18:17:59) [GET]
+  [4;35;1mSociety Load (0.3ms)[0m   [0mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;36;1mSociety Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+Migrating to CreateArticles (3)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (1)
+Migrating to CreateSocieties (2)
+Migrating to CreateArticles (3)
+Migrating to AddPresident (4)
+  [4;36;1mSQL (306.0ms)[0m   [0;1mALTER TABLE `societies` ADD `president` varchar(255)[0m
+  [4;35;1mSQL (33.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('4')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `societies`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `societies`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 18:27:12) [GET]
+  [4;36;1mSociety Load (0.3ms)[0m   [0;1mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;35;1mSociety Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `societies`[0m
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/societies]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#new (for 127.0.0.1 at 2010-11-26 18:27:17) [GET]
+  [4;36;1mSociety Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+Rendering template within layouts/societies
+Rendering societies/new
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/societies/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SocietiesController#index (for 127.0.0.1 at 2010-11-26 18:27:20) [GET]
+  [4;35;1mSociety Load (0.1ms)[0m   [0mSELECT * FROM `societies` [0m
+Rendering template within layouts/societies
+Rendering societies/index
+  [4;36;1mSociety Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `societies`[0m
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/societies]

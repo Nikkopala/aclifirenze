@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  society: MyString
+  base: MyText
+  email: MyString
+  tel: MyString
+  opening_time: MyString
+
+two:
+  society: MyString
+  base: MyText
+  email: MyString
+  tel: MyString
+  opening_time: MyString

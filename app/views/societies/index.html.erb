@@ -1,0 +1,28 @@
+<h1>Societies</h1>
+
+<table>
+  <tr>
+    <th>Society</th>
+    <th>Base</th>
+    <th>Email</th>
+    <th>Tel</th>
+    <th>Opening time</th>
+  </tr>
+
+<% @societies.each do |society| %>
+  <tr>
+    <td><%=h society.society %></td>
+    <td><%=h society.base %></td>
+    <td><%=h society.email %></td>
+    <td><%=h society.tel %></td>
+    <td><%=h society.opening_time %></td>
+    <td><%= link_to 'Show', society %></td>
+    <td><%= link_to 'Edit', edit_society_path(society) %></td>
+    <td><%= link_to 'Destroy', society, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New society', new_society_path %>

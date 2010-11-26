@@ -1,0 +1,28 @@
+<p>
+  <b>Society:</b>
+  <%=h @article.society %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @article.title %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%=h @article.date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @article.description %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%=h @article.image %>
+</p>
+
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>

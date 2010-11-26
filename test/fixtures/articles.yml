@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  society: MyString
+  title: MyString
+  date: 
+  description: MyText
+  image: 
+
+two:
+  society: MyString
+  title: MyString
+  date: 
+  description: MyText
+  image: 

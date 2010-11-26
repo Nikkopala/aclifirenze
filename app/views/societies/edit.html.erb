@@ -1,0 +1,32 @@
+<h1>Editing society</h1>
+
+<% form_for(@society) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :society %><br />
+    <%= f.text_field :society %>
+  </p>
+  <p>
+    <%= f.label :base %><br />
+    <%= f.text_area :base %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :tel %><br />
+    <%= f.text_field :tel %>
+  </p>
+  <p>
+    <%= f.label :opening_time %><br />
+    <%= f.text_field :opening_time %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @society %> |
+<%= link_to 'Back', societies_path %>
