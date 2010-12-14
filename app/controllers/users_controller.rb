@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.xml
+  before_filter :authorize
+  
   def index
     @users = User.all
 
@@ -80,4 +82,12 @@ class UsersController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  protected
+  def authorize
+		unless User.find_by_id(session[:user_id])
+			flash[:notice]="Per favore effettua il login"
+			redirect_to (:controller =>:admin ,:action=>:login)
+	  end
+	end
 end
