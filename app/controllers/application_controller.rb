@@ -2,6 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  layout "articles"
   helper :all # include all helpers, all the time
   protect_from_forgery
 

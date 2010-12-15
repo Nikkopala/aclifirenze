@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  before_filter :authorize
   # GET /articles
   # GET /articles.xml
   def index
@@ -80,4 +81,13 @@ class ArticlesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  protected
+  def authorize
+		unless User.find_by_id(session[:user_id])
+			flash[:notice]="Per favore effettua il login"
+			redirect_to(:controller =>:admin ,:action=>:login)
+	  end
+  end
+	
 end

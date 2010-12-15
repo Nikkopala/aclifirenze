@@ -1,29 +1,31 @@
-<h1>Listing articles</h1>
+<div id="article-list">
+<h1>Eventi</h1>
 
-<table>
-  <tr>
-    <th>Society</th>
-    <th>Title</th>
-    <th>Date</th>
-    <th>Description</th>
-    <th>Image</th>
-  </tr>
+<table cellpadding="5" cellspacing="0">
+<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
 
 <% @articles.each do |article| %>
   <tr>
     <td><%=h article.society %></td>
-    <td><%=h article.title %></td>
-    <td><%=h article.date %></td>
-    <td><%=h article.description %></td>
-    <td><%=h article.image %></td>
-    <td><%= link_to 'Show', article %></td>
-    <td><%= link_to 'Edit', edit_article_path(article) %></td>
-    <td><%= link_to 'Destroy', article, :confirm => 'Are you sure?', :method => :delete %></td>
+	<td width="60%">
+	<span class="list-title"><%=h article.title %></span><br />
+	<%=h truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
+	</td>    
+	<td><%=h article.date %></td>
+    <td><%= image_tag article.image, :class => 'list-image' %></td>
+    <td class="list-actions">
+	<%= link_to 'Show', article %><br/>
+	<%= link_to 'Edit', edit_article_path(article) %><br/>
+	<%= link_to 'Destroy', article,
+	:confirm => 'Are you sure?',
+	:method => :delete %>
+	</td>
   </tr>
 <% end %>
 </table>
-
+</div>
 <br />
 
 <%= link_to 'New article', new_article_path %>
 <%= link_to 'Indietro', :controller=>:admin, :action=>:index %>
+
