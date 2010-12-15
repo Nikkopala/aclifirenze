@@ -6,7 +6,7 @@ class AddTestData < ActiveRecord::Migration
 	
 	User.create(:society=>'Colonnata',
 	:name=>'Francesco', :surname=>'Potestio',
-	:hashed_password=>'pippo')
+	:hashed_password=>'d012f68144ed0f121d3cc330a17eec528c2e7d59')
 	
 	Society.create(:society=>'Colonnata',
 	:base=>%{<p>VIA GINORI,50 - 50019 SESTO FIORENTINO (FI) </p>}, 

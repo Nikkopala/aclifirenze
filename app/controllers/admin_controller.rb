@@ -6,7 +6,8 @@ class AdminController < ApplicationController
   		@user = User.check_login(params[:name], params[:password])
   		if @user
   			session[:user_id] = @user.id
-  			redirect_to (:action => :index)
+  			session[:society] = @user.society
+  			redirect_to(:action => :index)
   		else flash.now[:notice]="Login errato. Nome e/o password errati"
   		end
   	end
@@ -14,19 +15,18 @@ class AdminController < ApplicationController
 
   def logout
   session[:user_id]= nil
-  redirect_to (:action => :login)
+  redirect_to(:action => :login)
   flash[:notice]="Hai effettuato il logout"
   end
 
   def index 
-  @rico=session[:user_id][:society]
   end
 	
   protected
   def authorize
 		unless User.find_by_id(session[:user_id])
 			flash[:notice]="Per favore effettua il login"
-			redirect_to (:action=>:login)
+			redirect_to(:action=>:login)
 	  end
 	end
 

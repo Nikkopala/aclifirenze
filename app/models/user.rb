@@ -16,12 +16,13 @@ class User < ActiveRecord::Base
   end
   
   def self.check_login(name, password)
-    user=self.find_by_name(name)
-    if user
-    	if user.hashed_password!=password
-    		user=nil
-    	end
-    end
+    #~ user=self.find_by_name(name)
+    user=self.find(:all, :conditions => {:name=>name, :hashed_password =>Digest::SHA1.hexdigest(password)}).first
+    #~ if user
+    	#~ if user.hashed_password!=password
+    		#~ user=nil
+    	#~ end
+    #~ end
    	return user
     #return self.where(:name => name).where(:hashed_password => Digest::SHA1.hexdigest(password)).first
   end

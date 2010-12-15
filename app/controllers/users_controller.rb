@@ -87,7 +87,7 @@ class UsersController < ApplicationController
   def authorize
 		unless User.find_by_id(session[:user_id])
 			flash[:notice]="Per favore effettua il login"
-			redirect_to (:controller =>:admin ,:action=>:login)
+			redirect_to(:controller =>:admin ,:action=>:login)
 	  end
 	end
 end

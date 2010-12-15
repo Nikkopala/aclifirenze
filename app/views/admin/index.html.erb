@@ -1,7 +1,10 @@
 <h1>Admin#index</h1>
 
 
-<p>Benvenuti <%=@rico%></p>
+<p>Benvenuto <%= session[:society] %></p>
+<%= link_to 'Utenti', :controller=>:users, :action=>:index %>
+<%= link_to 'Eventi', :controller=>:articles, :action=>:index %> </br>
+<%= link_to 'Logout', :action=>:logout %>
 
 <p>Find me in app/views/admin/index.html.erb</p>
 
