@@ -43,10 +43,12 @@ ActiveRecord::Schema.define(:version => 6) do
   end
 
   create_table "users", :force => true do |t|
+    t.string   "nikname"
     t.string   "society"
     t.string   "name"
     t.string   "surname"
     t.string   "hashed_password"
+    t.boolean  "admin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

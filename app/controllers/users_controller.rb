@@ -74,9 +74,12 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.xml
   def destroy
-    @user = User.find(params[:id])
-    @user.destroy
-
+  	unless User.find_by_admin(true).to_a.count == 1
+    	@user = User.find(params[:id])
+    	@user.destroy
+    else
+    	flash[:notice]="Non puoi eliminare l'ultimo admministratore'"
+		end
     respond_to do |format|
       format.html { redirect_to(users_url) }
       format.xml  { head :ok }

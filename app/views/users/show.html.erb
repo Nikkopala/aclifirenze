@@ -4,6 +4,13 @@
 </p>
 
 <p>
+  <b>Nikname:</b>
+  <%=h @user.nikname %>
+</p>
+
+
+
+<p>
   <b>Name:</b>
   <%=h @user.name %>
 </p>
@@ -12,12 +19,15 @@
   <b>Surname:</b>
   <%=h @user.surname %>
 </p>
+<p>
 
+	<b>Permessi admin: </b><%= @user.admin? ? "admin" : "NO" %>
+</p>
 <p>
   <b>Password:</b>
   <%=h @user.password %>
 </p>
 
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Change', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

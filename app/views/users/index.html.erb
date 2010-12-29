@@ -3,16 +3,20 @@
 <table>
   <tr>
     <th>Society</th>
+    <th>Nikname</th>
     <th>Name</th>
     <th>Surname</th>
+    <th>Admin</th>
     <!--<>th>Password</th>-->
   </tr>
 
 <% @users.each do |user| %>
   <tr>
-    <td><%=h user.society %></td>
+		<td><%=h user.society %></td>
+		<td><%=h user.nikname %></td>  
     <td><%=h user.name %></td>
     <td><%=h user.surname %></td>
+    <td><%= user.admin? ? "admin" : "NO" %></td>
     <!--<td><%=h user.password %></td>-->
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>

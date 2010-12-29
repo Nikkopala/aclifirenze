@@ -3,10 +3,12 @@ class AdminController < ApplicationController
   def login
   	session[:user_id] = nil
   	if request.post?
-  		@user = User.check_login(params[:name], params[:password])
+  		@user = User.check_login(params[:nikname], params[:password])
   		if @user
   			session[:user_id] = @user.id
+  			session[:nikname] = @user.nikname
   			session[:society] = @user.society
+  			session[:admin]   = @user.admin?
   			redirect_to(:action => :index)
   		else flash.now[:notice]="Login errato. Nome e/o password errati"
   		end
