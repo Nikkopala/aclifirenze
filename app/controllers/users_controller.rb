@@ -59,15 +59,23 @@ class UsersController < ApplicationController
   # PUT /users/1.xml
   def update
     @user = User.find(params[:id])
-
-    respond_to do |format|
-      if @user.update_attributes(params[:user])
-        format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
-      end
+    #controllo di non togliere il permesso di amministrazione all' ultimo admin
+		unless User.find_by_admin(true).to_a.count == 1 and @user.admin? then
+			respond_to do |format|
+		  	if @user.update_attributes(params[:user]) then
+		    	format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
+		      format.xml  { head :ok }
+		    else
+		      format.html { render :action => "show" }
+		      format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
+		    end
+			end
+		else
+			flash[:notice] = "Le modifiche non sono state effettuate"
+			flash[:error] = "Non puoi levare il permesso di amministratore all' ultimo amministratore!!"
+			respond_to do |format|
+				format.html { render :action => "show" }
+			end
     end
   end
 

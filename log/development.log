@@ -13949,3 +13949,1071 @@ Processing UsersController#index (for 127.0.0.1 at 2010-12-29 19:39:21) [GET]
 Rendering template within layouts/users
 Rendering users/index
 Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 14:25:35) [GET]
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` IS NULL) LIMIT 1[0m
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 14:25:35) [GET]
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 125ms (View: 123, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 14:25:46) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"francesco", "password"=>"pippo"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`hashed_password` = 'd012f68144ed0f121d3cc330a17eec528c2e7d59' AND `users`.`nikname` = 'francesco') [0m
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 14:25:53) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"francesco", "password"=>"pippo"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`hashed_password` = 'd012f68144ed0f121d3cc330a17eec528c2e7d59' AND `users`.`nikname` = 'francesco') [0m
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 14:25:59) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"nikkopala", "password"=>"pippopippo"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`hashed_password` = '25119c0fa481581bdd7cf5e19805bd72a0415bc6' AND `users`.`nikname` = 'nikkopala') [0m
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/admin
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 14:25:59) [GET]
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/admin]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 14:26:02) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 80ms (View: 73, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 14:26:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 72ms (View: 20, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:26:21) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+TypeError (can't convert true into Integer):
+  app/controllers/users_controller.rb:62:in `&'
+  app/controllers/users_controller.rb:62:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:27:45) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+TypeError (can't convert true into Integer):
+  app/controllers/users_controller.rb:62:in `&'
+  app/controllers/users_controller.rb:62:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:28:31) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template users/update.erb in view path app/views):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:28:38) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template users/update.erb in view path app/views):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 14:28:40) [GET]
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/users/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 14:28:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:28:53) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ActionView::MissingTemplate (Missing template users/update.erb in view path app/views):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:31:14) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:74:in `format'
+  app/controllers/users_controller.rb:74:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (27.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:31:22) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:74:in `format'
+  app/controllers/users_controller.rb:74:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 14:31:28) [GET]
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/users/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 14:31:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 14:31:45) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:74:in `format'
+  app/controllers/users_controller.rb:74:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (27.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 16:30:37) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+NoMethodError (undefined method `admin?' for nil:NilClass):
+  app/controllers/users_controller.rb:62:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (27.8ms)
+Rendered rescues/_request_and_response (10.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 16:30:39) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+NoMethodError (undefined method `admin?' for nil:NilClass):
+  app/controllers/users_controller.rb:62:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#update (for 127.0.0.1 at 2010-12-30 16:31:45) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+
+SyntaxError (/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:62: syntax error, unexpected ')'
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:72: syntax error, unexpected kELSE, expecting ')'
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:75: syntax error, unexpected kEND, expecting ')'
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:100: syntax error, unexpected kEND, expecting ')'):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (79.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#update (for 127.0.0.1 at 2010-12-30 16:47:13) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+
+SyntaxError (/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:71: syntax error, unexpected '\n'
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:100: syntax error, unexpected kEND, expecting $end):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (26.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#update (for 127.0.0.1 at 2010-12-30 16:52:15) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+
+SyntaxError (/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:62: syntax error, unexpected kTHEN
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:100: syntax error, unexpected kEND, expecting $end):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (25.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#update (for 127.0.0.1 at 2010-12-30 16:52:44) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+
+SyntaxError (/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:62: syntax error, unexpected kTHEN
+/home/nikko/Devel/aclifirenze/app/controllers/users_controller.rb:100: syntax error, unexpected kEND, expecting $end):
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 16:54:38) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+NoMethodError (undefined method `admin?' for nil:NilClass):
+  app/controllers/users_controller.rb:62:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (27.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 16:54:53) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:74:in `format'
+  app/controllers/users_controller.rb:74:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 17:41:46) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"1", "nikname"=>"nikkopala", "password"=>"", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:75:in `format'
+  app/controllers/users_controller.rb:75:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (82.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 17:42:03) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"pippopippo", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:75:in `format'
+  app/controllers/users_controller.rb:75:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 17:49:55) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"pippopippo", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:76:in `format'
+  app/controllers/users_controller.rb:76:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 17:49:58) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"pippopippo", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:76:in `format'
+  app/controllers/users_controller.rb:76:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 17:52:02) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"pippopippo", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+
+ArgumentError (too few arguments):
+  app/controllers/users_controller.rb:76:in `format'
+  app/controllers/users_controller.rb:76:in `update'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/nikko/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (82.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:03:05) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"pippopippo", "surname"=>"poppo", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 60ms (View: 52, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 18:03:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:03:55) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"98g", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:04:35) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"98g", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 10ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:07:42) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"98g", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:09:00) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 18:09:01) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/admin]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-12-30 18:09:04) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Redirected to http://localhost:3000/admin/login
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/admin/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:09:04) [GET]
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:10:29) [GET]
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:10:39) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"nikkopala", "password"=>"pippo"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`hashed_password` = 'd012f68144ed0f121d3cc330a17eec528c2e7d59' AND `users`.`nikname` = 'nikkopala') [0m
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:10:48) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"nikkopala", "password"=>"pippopippo"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`hashed_password` = '25119c0fa481581bdd7cf5e19805bd72a0415bc6' AND `users`.`nikname` = 'nikkopala') [0m
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/admin
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/admin/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 18:10:48) [GET]
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/admin]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:10:51) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#destroy (for 127.0.0.1 at 2010-12-30 18:10:55) [DELETE]
+  Parameters: {"authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1"}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Redirected to http://localhost:3000/users
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:10:55) [GET]
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 18:11:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:11:03) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:11:13) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-12-30 18:11:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/users
+Rendering users/edit
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://localhost/users/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:11:18) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 59ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-12-30 18:12:05) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "id"=>"1", "user"=>{"name"=>"Niccolò", "admin"=>"0", "nikname"=>"nikkopala", "password"=>"", "surname"=>"Paladino", "society"=>"Colonnata"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`admin` = 1) LIMIT 1[0m
+Rendering template within layouts/users
+Rendering users/show
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:45:45) [GET]
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/users]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 18:45:46) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/admin]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:45:48) [GET]
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 18:45:50) [GET]
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/admin]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-12-30 18:45:51) [GET]
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Redirected to http://localhost:3000/admin/login
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/admin/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:45:51) [GET]
+Rendering template within layouts/articles
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-12-30 18:46:33) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"QQl95Q6GgJklr6/vykoaXr8aIM7ZFwLJVfIPRWOCpiA=", "nikname"=>"NIKKOPALA", "password"=>"pippopippo"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`hashed_password` = '25119c0fa481581bdd7cf5e19805bd72a0415bc6' AND `users`.`nikname` = 'NIKKOPALA') [0m
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/admin
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/admin/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-12-30 18:46:33) [GET]
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/articles
+Rendering admin/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/admin]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-12-30 18:46:35) [GET]
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/users]
