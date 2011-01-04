@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   before_filter :authorize
+  uses_tiny_mce
   # GET /articles
   # GET /articles.xml
   def index
