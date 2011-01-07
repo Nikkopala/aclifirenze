@@ -15,14 +15,14 @@
 
 <p>
   <b>Description:</b>
-  <%=h @article.description %>
+  <%= @article.description%>
 </p>
 
 <p>
-  <b>Image:</b>
-  <%=h @article.image %>
+  <b>Immagine:</b>
+  <%= image_tag @article.photo.url(:thumb), :class=>"img_articolo" %>
 </p>
 
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Edit', edit_article_path	 %> |
 <%= link_to 'Back', articles_path %>

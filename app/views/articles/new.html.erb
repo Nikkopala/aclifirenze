@@ -1,11 +1,12 @@
 <h1>New article</h1>
 
-<% form_for(@article) do |f| %>
+<% form_for(@article, :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
+
   <p>
-    <%= f.label :society %><br />
-    <%= f.text_field :society %>
+  	<%= f.label :society %><br />
+		<%= select_tag "Cirolo", options_for_select(@circoli_a) => :society%>
   </p>
   <p>
     <%= f.label :title %><br />
@@ -20,8 +21,8 @@
     <%= f.text_area :description %>
   </p>
   <p>
-    <%= f.label :image %><br />
-    <%= f.text_field :image %>
+    <%= f.label :photo %><br />
+    <%= f.file_field :photo %>
   </p>
   <p>
     <%= f.submit 'Create' %>

@@ -3,9 +3,10 @@
 <% form_for(@article) do |f| %>
   <%= f.error_messages %>
 
+
   <p>
-    <%= f.label :society %><br />
-    <%= f.text_field :society %>
+  	<%= f.label :society %><br />
+		<%= select_tag "article[society]", options_for_select(@circoli_a)  %>
   </p>
   <p>
     <%= f.label :title %><br />
@@ -24,9 +25,18 @@
     <%= f.text_field :image %>
   </p>
   <p>
+  	img<br />
+    <%= @article.photo.url %>
+  </p>
+  <p>
     <%= f.submit 'Update' %>
   </p>
 <% end %>
-
+  <p>
+	  <% form_for (:article, :url => "/articles/edit/#{@article.id}", :html => { :multipart => true }) do |l| %>
+		  <%= l.file_field :photo%>
+		  <%= l.submit 'Update' %>
+		<% end %> 
+	</p>
 <%= link_to 'Show', @article %> |
 <%= link_to 'Back', articles_path %>

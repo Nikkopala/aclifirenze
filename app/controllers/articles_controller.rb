@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
   before_filter :authorize
   uses_tiny_mce
+  
   # GET /articles
   # GET /articles.xml
   def index
@@ -27,7 +28,12 @@ class ArticlesController < ApplicationController
   # GET /articles/new.xml
   def new
     @article = Article.new
-
+    
+    @circoli_a = Array.new
+    @circoli =  Society.find(:all)
+    @circoli.each do |c|
+    	@circoli_a << c.society
+    end 	
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @article }
@@ -37,13 +43,26 @@ class ArticlesController < ApplicationController
   # GET /articles/1/edit
   def edit
     @article = Article.find(params[:id])
+    @circoli_a = Array.new
+    @circoli =  Society.find(:all)
+    @circoli.each do |c|
+    	@circoli_a << c.society
+    end
+    if request.post?
+#   	render :text => params[:article].inspect
+    	unless params[:article][:photo].nil?
+		  	@article.photo = params[:article][:photo]
+		  	@article.save!
+		  end
+#    	redirect_to "/articles/show/#{@article.id}"
+    end
   end
 
   # POST /articles
   # POST /articles.xml
   def create
     @article = Article.new(params[:article])
-
+    @article[:society] =  params[:society]
     respond_to do |format|
       if @article.save
         format.html { redirect_to(@article, :notice => 'Article was successfully created.') }

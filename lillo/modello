@@ -1,0 +1,4 @@
+def import_new_file
+post = AbnfFile.import(params[:upload], params[:library_id], session[:user_id])
+redirect_to :controller => "users", :action => "index"
+end

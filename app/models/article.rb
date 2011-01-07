@@ -1,6 +1,9 @@
 class Article < ActiveRecord::Base
 	validates_uniqueness_of :society, :scope => [:title, :date]
-	validates_format_of :image,
-										:with => %r{\.(gif|jpg|png)$}i,
-										:message => 'must be a URL for GIF, JPG ' + 'or PNG image.(gif|jpg|png)'
+	
+	# Paperclip
+  has_attached_file :photo, 
+  	:styles => {
+      :thumb=> "100x100#",
+      :small  => "150x150>" }
 end

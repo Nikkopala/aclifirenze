@@ -268,3 +268,8 @@ h1 {
   font-size: 12px;
   list-style: square;
 }
+
+.img_articolo
+{
+	border: 1px solid #000;
+}
