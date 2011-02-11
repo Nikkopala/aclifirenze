@@ -1,0 +1,25 @@
+<h1>New report</h1>
+ <%= include_tiny_mce_if_needed %>
+
+<% form_for(@report, :html => { :multipart => true }) do |f| %>
+  <%= f.error_messages %>
+
+
+  <p>
+  	<%= f.label :society %><br />
+		<%= select_tag "report[society]", options_for_select(@circoli_a) => :society%>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+     <%= f.text_area :description, :class => "mceEditor"%>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', reports_path %>

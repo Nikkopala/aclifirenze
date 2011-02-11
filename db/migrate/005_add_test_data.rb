@@ -17,9 +17,8 @@ class AddTestData < ActiveRecord::Migration
 	:email=>'sancasciano@aclifirenze.it', :tel=>'055820478', :opening_time=>'')
 	
 	Article.create(:society=>'Colonnata', :title=>'Festa del socio', 
-	:date=>10/12/2010, 
-	:description=>%{<p>Si mangia da Dio 15 euro </p>}, 
-	:image=>'http://www.alicubi.it/User/img/logo_acli.gif')
+	:date=>"10/12/2010", 
+	:description=>%{<p>Si mangia da Dio 15 euro </p>})
   end
 
   def self.down

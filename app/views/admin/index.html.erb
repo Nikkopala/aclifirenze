@@ -3,12 +3,18 @@
 
 <p>Benvenuto <%= @user.nikname %> amministratore di <%= session[:society] %></p>
 <% if @user.admin? %>
-	<%= link_to 'Circoli', :controller=>:societies, :action=>:index %> </br>
-	<%= link_to 'Utenti', :controller=>:users, :action=>:index %> </br>
-<% end %>
-	<%= link_to 'Eventi', :controller=>:articles, :action=>:index %> </br>
-	<%= link_to 'Logout', :action=>:logout %></br>
-
+	<%= link_to 'Circoli', :controller=>:societies, :action=>:index %> 
+	<br/>
+	<%= link_to 'Utenti', :controller=>:users, :action=>:index %> 
+	<br/>
+<% end %>	
+	<%= link_to 'Avvisi', :controller=>:reports, :action=>:index %> 
+	<br/>
+	<%= link_to 'Eventi', :controller=>:articles, :action=>:index %> 
+	<br/>
+	<%= link_to 'Logout', :action=>:logout %>
+	<br/>
+	
 <p>Find me in app/views/admin/index.html.erb</p>
 
 

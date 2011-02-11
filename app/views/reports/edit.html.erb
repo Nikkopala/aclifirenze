@@ -1,0 +1,34 @@
+<h1>Editing report</h1>
+
+ <%= include_tiny_mce_if_needed %>
+<% form_for(@report) do |f| %>
+  <%= f.error_messages %>
+
+
+  <p>
+  	<%= f.label :society %><br />
+		<%= select_tag "report[society]", options_for_select(@circoli_a)  %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :description%><br />
+    <%= f.text_area :description, :class => "mceEditor"%>
+  </p>
+
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+  <p>
+	  <% form_for (:report, :url => "/reports/edit/#{@report.id}", :html => { :multipart => true }) do |l| %>
+		  <%= l.file_field :photo%>
+		  <%= l.submit 'Update' %>
+		<% end %> 
+	</p>
+<%= link_to 'Show', @report %> |
+<%= link_to 'Back', reports_path %>

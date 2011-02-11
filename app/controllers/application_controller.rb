@@ -2,14 +2,14 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  layout "articles"
+  layout "application"
   helper :all # include all helpers, all the time
   protect_from_forgery
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
   
-  before_filter :get_user_if_logged
+  before_filter :get_user_if_logged, :exept => 	:home
   
   protected
   def get_user_if_logged

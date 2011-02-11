@@ -1,0 +1,18 @@
+<p>
+  <b>Society:</b>
+  <%=h @report.society %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @report.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @report.description%>
+</p>
+
+
+<%= link_to 'Edit', edit_report_path	 %> |
+<%= link_to 'Back', reports_path %>

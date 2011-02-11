@@ -1,6 +1,6 @@
 <h1>Editing article</h1>
  <%= include_tiny_mce_if_needed %>
-<% form_for(@article) do |f| %>
+<% form_for(@article, :html => { :multipart => true }) do |f|  %>
   <%= f.error_messages %>
 
 
@@ -20,12 +20,9 @@
     <%= f.label :description%><br />
     <%= f.text_area :description, :class => "mceEditor"%>
   </p>
+
   <p>
-    <%= f.label :image %><br />
-    <%= f.text_field :image %>
-  </p>
-  <p>
-  	img<br />
+  	Immagine<br />
     <%= @article.photo.url %>
   </p>
   <p>

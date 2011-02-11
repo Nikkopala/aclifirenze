@@ -1,0 +1,43 @@
+<div id="article-list">
+<h1>Avvisi da acli provinciale</h1>
+<table cellpadding="5" cellspacing="0">
+<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+	<% unless @reportsprovinciali.nil? %>
+ 
+	<% @reportsprovinciali.each do |report| %>
+		<tr>
+		  <td><%=h report.society %></td>
+		<td width="60%">
+		<span class="list-title"><%=h report.title %></span><br />
+		<%= truncate(report.description.gsub(/<.*?>/,''), 80) %><br />
+		</td>    
+		</tr>
+	<% end %>
+<% end %>
+</table>
+</div>
+<br>
+
+<div id="article-list">
+<h1>Prossimi eventi dai circoli</h1>
+<table cellpadding="5" cellspacing="0">
+<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+	<% unless @articlescircoli.nil? %>
+ 
+	<%for n in 0..4 %>
+		<% unless @articlescircoli[n].nil? %>
+			<tr>
+				<td><%=h @articlescircoli[n].society %></td>
+			<td width="60%">
+			<span class="list-title"><%=h @articlescircoli[n].title %></span><br />
+			<%= truncate(@articlescircoli[n].description.gsub(/<.*?>/,''), 80) %><br />
+			</td>
+				<td><%=h @articlescircoli[n].date %></td>
+    <td><%= image_tag @articlescircoli[n].photo.url(:thumb), :class => 'img_articolo' %></td> 
+	
+			</tr>
+		<% end %>
+	<% end %>
+<% end %>
+</table>
+</div>
