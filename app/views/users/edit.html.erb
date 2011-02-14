@@ -5,7 +5,7 @@
 
   <p>
     <%= f.label :society %><br />
-    <%= f.text_field :society %>
+		<%= select_tag "user[society]", options_for_select(@circoli_a) => :society%>
   </p>
    <p>
    <%= f.label :nikname %><br />

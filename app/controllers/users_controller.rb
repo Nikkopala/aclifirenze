@@ -27,7 +27,11 @@ class UsersController < ApplicationController
   # GET /users/new.xml
   def new
     @user = User.new
-
+	@circoli_a = Array.new
+    @circoli =  Society.find(:all)
+    @circoli.each do |c|
+    	@circoli_a << c.society
+    end
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @user }
@@ -37,6 +41,11 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
     @user = User.find(params[:id])
+    @circoli_a = Array.new
+    @circoli =  Society.find(:all)
+    @circoli.each do |c|
+    	@circoli_a << c.society
+    end
   end
 
   # POST /users

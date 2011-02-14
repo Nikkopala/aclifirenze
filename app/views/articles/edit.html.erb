@@ -14,7 +14,7 @@
   </p>
   <p>
     <%= f.label :date %><br />
-    <%= f.text_field :date %>
+    <%=datetime_select("post", "written_on", :prompt => {:day => 'Choose day', :month => 'Choose month', :year => 'Choose year', :hour => false}) %>
   </p>
   <p>
     <%= f.label :description%><br />
