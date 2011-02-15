@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name
       t.string :surname
       t.string :hashed_password
-      t.boolean :admin
+      t.string :admin
       
       t.timestamps
     end

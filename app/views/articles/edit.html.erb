@@ -1,39 +1,37 @@
 <h1>Editing article</h1>
- <%= include_tiny_mce_if_needed %>
+<%= include_tiny_mce_if_needed %>
 <% form_for(@article, :html => { :multipart => true }) do |f|  %>
   <%= f.error_messages %>
-
-
   <p>
-  	<%= f.label :society %><br />
+  	<%= f.label :circolo %><br />
 		<%= select_tag "article[society]", options_for_select(@circoli_a)  %>
   </p>
   <p>
-    <%= f.label :title %><br />
+    <%= f.label :titolo %><br />
     <%= f.text_field :title %>
   </p>
+<!--    <p>-->
+<!--    <%= f.label :date %><br />-->
+<!--     <%=h @article.date.strftime("%d/%B/%y") %>-->
+<!--	</p>-->
   <p>
-    <%= f.label :date %><br />
-    <%=datetime_select("post", "written_on", :prompt => {:day => 'Choose day', :month => 'Choose month', :year => 'Choose year', :hour => false}) %>
+    <%= f.label :"modificare la data in"%><br />
+    <%= f.datetime_select(:date, :prompt => {:day => @article.date.day, :month => @article.date.month, :year => @article.date.year, :hour => @article.date.hour}) %>
   </p>
   <p>
     <%= f.label :description%><br />
     <%= f.text_area :description, :class => "mceEditor"%>
+  </p> 	
+  
+  	<%= image_tag @article.photo.url(:thumb), :class=>"img_articolo" %>		  	<br />
+  	Immagine attuale: <%= @article.photo.url %>
   </p>
-
-  <p>
-  	Immagine<br />
-    <%= @article.photo.url %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
-<% end %>
-  <p>
-	  <% form_for (:article, :url => "/articles/edit/#{@article.id}", :html => { :multipart => true }) do |l| %>
-		  <%= l.file_field :photo%>
-		  <%= l.submit 'Update' %>
-		<% end %> 
+	<p>
+		 <%= f.file_field :photo %><br/>
+		 <%= f.submit 'Update' %>
 	</p>
+<% end %>
+  
+
 <%= link_to 'Show', @article %> |
 <%= link_to 'Back', articles_path %>

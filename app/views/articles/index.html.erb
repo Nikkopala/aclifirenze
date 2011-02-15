@@ -11,7 +11,7 @@
 	<span class="list-title"><%=h article.title %></span><br />
 	<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
 	</td>    
-	<td><%=h article.date%></td>
+	<td><%=h article.date.strftime("%d %B %y")%></td>
     <td><%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %></td> 
     <td class="list-actions">
 	<%= link_to 'Show', "/articles/show/#{article.id}" %><br/>

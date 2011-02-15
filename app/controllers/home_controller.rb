@@ -2,12 +2,8 @@ class HomeController < ApplicationController
 
 	def index
 		@reportsprovinciali = Report.find_all_by_society("Acliprovinciale")
-		@articlescircoli = Article.find(:all, :order => "date")
-		@articlescircoli.each do |article|
-			if article.date <= Time.now
-					@articlescircoli.delete(article)
-			end
-		end
+		@articlescircoli = Article.find(:all, :conditions => ['date >= ? ', Time.now], :order => :date, :limit => 10)
+		
 	end
 	
 end

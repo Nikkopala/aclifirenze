@@ -2,7 +2,7 @@
 
 
 <p>Benvenuto <%= @user.nikname %> amministratore di <%= session[:society] %></p>
-<% if @user.admin? %>
+<% if @user.admin=="si" %>
 	<%= link_to 'Circoli', :controller=>:societies, :action=>:index %> 
 	<br/>
 	<%= link_to 'Utenti', :controller=>:users, :action=>:index %> 

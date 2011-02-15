@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(:version => 8) do
     t.string   "name"
     t.string   "surname"
     t.string   "hashed_password"
-    t.boolean  "admin"
+    t.string   "admin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

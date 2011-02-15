@@ -1,4 +1,6 @@
 class SocietiesController < ApplicationController
+	 before_filter :authorize
+	 
   # GET /societies
   # GET /societies.xml
   def index
@@ -79,5 +81,12 @@ class SocietiesController < ApplicationController
       format.html { redirect_to(societies_url) }
       format.xml  { head :ok }
     end
+  end
+   protected
+  def authorize
+		unless User.find_by_id(session[:user_id]).admin=="si"
+			flash[:notice]="Per favore effettua il login"
+			redirect_to(:controller =>:admin ,:action=>:login)
+	  end
   end
 end

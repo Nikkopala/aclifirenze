@@ -1,5 +1,6 @@
 class Article < ActiveRecord::Base
 	validates_uniqueness_of :society, :scope => [:title, :date]
+	validates_presence_of :date
 	
 	# Paperclip
   has_attached_file :photo, 

@@ -24,18 +24,18 @@
 				end %>
 			</div>
 			<%= @current_time %><br /><br/>
-			<a href="http://www....">Home</a><br />
-			<a href="http://www..../faq">Questions</a><br />
-			<a href="http://www..../news">News</a><br />
-			<a href="http://www..../contact">Contact</a><br />
+			<%= link_to 'Home', :controller=>'home'%><br />
+
+			<br />
+			<%= link_to 'Login', :controller=>:admin, :action=>'login'%><br/>
 			<% if session[:user_id] %>
 			<br/>
 			<%= link_to 'Orders', :controller => 'orders' %><br/>
 			<%= link_to 'Products', :controller => 'products' %><br/>
 			<%= link_to 'Users', :controller => 'users' %> <br/>
 			<br/>
-			<%= link_to 'Logout', :controller=>:admin, :action=>'logout' %>
-			<%end%>
+			<%= link_to 'Logout', :controller=>:admin, :action=>'logout' %><br/>
+			<% end%>
 		</div>
 		<div id="main">
 			<% if flash[:notice] -%>

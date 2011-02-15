@@ -14,11 +14,15 @@
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </p>
-  <p>
-    <%= f.label :date %><br />
-    <%=datetime_select("article[date]", "written_on", :prompt => {:day => 'Choose day', :month => 'Choose month', :year => 'Choose year'}) %>
 
-  </p>
+	<p>
+    <%= f.label :date%><br />
+    
+    <%=
+    	f.datetime_select(:date) 
+    	#datetime_select("article", "date", :prompt => {:day => 'Choose day', :month => 'Choose month', :year => 'Choose year'}) 
+    	%>
+	</p>
   <p>
     <%= f.label :description %><br />
      <%= f.text_area :description, :class => "mceEditor"%>

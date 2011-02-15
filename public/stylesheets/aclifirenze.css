@@ -17,7 +17,11 @@ h1 {
         border-bottom: 3px dotted #77d;
 }
 
-/* Styles for products/index */
+/* Styles for article */
+
+.list-title{
+	font-weight: bold;
+}
 
 #article-list table {
         border-collapse: collapse;
@@ -109,49 +113,7 @@ h1 {
 }
 /* END:mainlayout */
 
-/* An entry in the store catalog */
 
-#store  .entry {
-  overflow: auto;
-  margin-top: 1em;
-  border-bottom: 1px dotted #77d;
-}
-
-#store  .title {
-  font-size: 120%;
-  font-family: sans-serif;
-}
-
-#store .entry img {
-  width: 75px;
-  float: left;
-}
-
-
-#store .entry h3 {
- margin-top: 0;
- margin-bottom: 2px;
- color: #227;
-}
-
-#store .entry p {
- margin-top: 0.5em; 
- margin-bottom: 0.8em; 
-}
-
-#store .entry .price-line {
- clear: both;
-}
-
-#store .entry .add-to-cart {
-  position: relative;
-}
-
-#store .entry  .price {
-  color: #44a;
-  font-weight: bold;
-  margin-right: 2em;
-}
 
 /* START:inline */
 #store .entry form, #store .entry form div {
@@ -159,73 +121,7 @@ h1 {
 }
 /* END:inline */
 
-/* START:cartmain */
-/* Styles for the cart in the main page */
 
-.cart-title {
-  font: 120% bold;
-}
-
-.item-price, .total-line {
-  text-align: right;
-}
-
-.total-line .total-cell {
-  font-weight: bold;
-  border-top: 1px solid #595;
-}
-/* END:cartmain */
-
-/* START:cartside */
-/* Styles for the cart in the sidebar */
-
-#cart, #cart table {
-  font-size: smaller;
-  color:     white;
-}
-
-#cart table {
-  border-top:    1px dotted #595;
-  border-bottom: 1px dotted #595;
-  margin-bottom: 10px;
-}
-/* END:cartside */
-
-/* START:form */
-/* Styles for order form */
-
-.depot-form fieldset {
-  background: #efe;
-}
-
-.depot-form legend {
-  color: #dfd;
-  background: #141;
-  font-family: sans-serif;
-  padding: 0.2em 1em;
-}
-
-.depot-form label {
-  width: 5em;
-  float: left;
-  text-align: right;
-  padding-top: 0.2em;
-  margin-right: 0.1em;
-  display: block;
-}
-
-.depot-form select, .depot-form textarea, .depot-form input {
-  margin-left: 0.5em;
-}
-
-.depot-form .submit {
-  margin-left: 4em;
-}
-
-.depot-form div {
-  margin: 0.5em 0;
-}
-/* END:form */
 
 /* The error box */
 

@@ -16,7 +16,7 @@
 		<td><%=h user.nikname %></td>  
     <td><%=h user.name %></td>
     <td><%=h user.surname %></td>
-    <td><%= user.admin? ? "admin" : "NO" %></td>
+    <td><%= user.admin=="si" ? "admin" : "NO" %></td>
     <!--<td><%=h user.password %></td>-->
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>

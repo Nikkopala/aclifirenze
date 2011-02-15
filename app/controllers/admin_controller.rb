@@ -8,7 +8,7 @@ class AdminController < ApplicationController
   			session[:user_id] = @user.id
   			session[:nikname] = @user.nikname
   			session[:society] = @user.society
-  			session[:admin]   = @user.admin?
+  			session[:admin]   = @user.admin
   			redirect_to(:action => :index)
   		else flash.now[:notice]="Login errato. Nome e/o password errati"
   		end
