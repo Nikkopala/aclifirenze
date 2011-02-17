@@ -22,5 +22,10 @@
 </div>
 <br />
 
-<%= link_to 'New report', new_report_path %>
-<%= link_to 'Indietro', :controller=>:admin, :action=>:index %>
+<% unless session[:user_id]==nil %>
+	<%= link_to 'Nuovo avviso', new_report_path %>
+	<%= link_to 'Indietro', :controller=>:admin, :action=>:index %>
+<% end %>
+<% if session[:user_id]==nil %>
+	<%= link_to 'indietro', :controller=>:home, :action=>:index %> 
+<% end %>

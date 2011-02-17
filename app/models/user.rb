@@ -27,4 +27,21 @@ class User < ActiveRecord::Base
    	return user
     #return self.where(:name => name).where(:hashed_password => Digest::SHA1.hexdigest(password)).first
   end
+  
+  
+  def is_poweradmin?
+  	if admin=="si"
+  		return true
+  	else
+  		return false
+  	end
+  end
+  
+  def is_admin?
+  	if admin?
+  		return true
+  	else
+  		return false
+  	end	
+  end
 end

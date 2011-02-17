@@ -17,7 +17,7 @@ class AdminController < ApplicationController
 
   def logout
   session[:user_id]= nil
-  redirect_to(:action => :login)
+  redirect_to(:controller=>:home, :action=>:index)
   flash[:notice]="Hai effettuato il logout"
   end
 

@@ -19,9 +19,7 @@ h1 {
 
 /* Styles for article */
 
-.list-title{
-	font-weight: bold;
-}
+
 
 #article-list table {
         border-collapse: collapse;
@@ -30,6 +28,10 @@ h1 {
 #article-list table tr td {
         padding: 5px;
         vertical-align: top;
+}
+
+#article-list .list-title{
+	font-weight: bold;
 }
 
 #article-list .list-image {
@@ -70,6 +72,8 @@ h1 {
 }
 
 /* START:mainlayout */
+
+
 /* Styles for main page */
 
 #banner {
@@ -110,6 +114,11 @@ h1 {
 #side a {
   color: #ffb;
   font-size: small;
+}
+
+#menu-admin {
+	background-color:green;
+	
 }
 /* END:mainlayout */
 
