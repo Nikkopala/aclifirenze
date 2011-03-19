@@ -52,7 +52,11 @@ class UsersController < ApplicationController
   # POST /users.xml
   def create
     @user = User.new(params[:user])
-
+		@circoli_a = Array.new
+    @circoli =  Society.find(:all)
+    @circoli.each do |c|
+    	@circoli_a << c.society
+    end
     respond_to do |format|
       if @user.save
         format.html { redirect_to(@user, :notice => 'User was successfully created.') }
@@ -69,21 +73,33 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     #controllo di non togliere il permesso di amministrazione all' ultimo admin
-		unless User.find_by_admin(true).to_a.count == 1 and @user.admin? then
-			respond_to do |format|
-		  	if @user.update_attributes(params[:user]) then
-		    	format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
-		      format.xml  { head :ok }
-		    else
-		      format.html { render :action => "show" }
-		      format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
-		    end
+		if @user.admin=="si" and params[:user][:admin] != "si"
+			unless User.find(:all, :conditions=> {:admin => "si"}).count == 1 and @user.admin? then
+				respond_to do |format|
+					if @user.update_attributes(params[:user]) then
+				  	format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
+				    format.xml  { head :ok }
+				  else
+				    format.html { render :action => "show" }
+				    format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
+				  end
+				end
+			else
+				flash[:notice] = "Le modifiche non sono state effettuate"
+				flash[:notice] = "Non puoi levare il permesso di amministratore all' ultimo amministratore!!"
+				respond_to do |format|
+					format.html { render :action => "show" }
+				end
 			end
 		else
-			flash[:notice] = "Le modifiche non sono state effettuate"
-			flash[:error] = "Non puoi levare il permesso di amministratore all' ultimo amministratore!!"
 			respond_to do |format|
-				format.html { render :action => "show" }
+				if @user.update_attributes(params[:user]) then
+			  	format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
+			    format.xml  { head :ok }
+			  else
+			    format.html { render :action => "show" }
+			    format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
+			  end
 			end
     end
   end
@@ -91,11 +107,15 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.xml
   def destroy
-  	unless User.find_by_admin(true).to_a.count == 1
-    	@user = User.find(params[:id])
-    	@user.destroy
-    else
-    	flash[:notice]="Non puoi eliminare l'ultimo admministratore'"
+  	@user = User.find(params[:id])
+  	if @user.admin == "si"
+			unless User.find(:all, :conditions=> {:admin => "si"}).count == 1
+		  	@user.destroy
+		  else
+		  	flash[:notice]="Non puoi eliminare l'ultimo admministratore'"
+			end
+		else 
+			@user.destroy
 		end
     respond_to do |format|
       format.html { redirect_to(users_url) }

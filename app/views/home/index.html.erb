@@ -1,41 +1,63 @@
-<div id="article-list">
-<h1>Avvisi da acli provinciale</h1>
-<table cellpadding="5" cellspacing="0">
-<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
-	<% unless @reportsprovinciali.nil? %>
- 
-	<% @reportsprovinciali.each do |report| %>
-		<tr>
-		  <td><%=h report.society %></td>
-		<td width="60%">
-		<span class="list-title"><%=h report.title %></span><br />
-		<%= truncate(report.description.gsub(/<.*?>/,''), 80) %><br />
-		</td>    
-		</tr>
-	<% end %>
-<% end %>
-</table>
-<%= link_to 'Vedi tutti gli avvisi', :controller=>:reports, :action=>:index %> 
-</div>
-<br>
+<% @page_title = "Home di Acliprovinciali" %>
 
 <div id="article-list">
-<h1>Prossimi eventi dai circoli</h1>
-<table cellpadding="5" cellspacing="0">
-<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
-	<% unless @articlescircoli.nil? %>
-		<% @articlescircoli.each do |article| %>
-			<tr>
-			 	<td><%=h article.society %></td>
-			<td width="60%">
-				<span class="list-title"><%=h article.title %></span><br />
-				<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
-			</td>
-			<td><%=h article.date.strftime("%d %B %y") %></td>
-    	<td><%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %></td> 
-			</tr>
+	<h1>Comunicati da acli provinciale</h1>
+	<table cellpadding="5" cellspacing="0">
+	<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+		<% unless @reportsprovinciali.nil? %>
+			<% @reportsprovinciali.each do |report| %>
+				<tr>
+				<td>
+					<span class="list-title"><%=h report.society %> - <%= link_to report.title , "/reports/show/#{report.id}" %></span><br />
+					<%= truncate(report.description.gsub(/<.*?>/,''), 80) %><br />
+				</td>
+				<td class="list-actions">
+					<%if session[:user_id]!=nil and @user.admin=="si"%>
+						<%= link_to 'Modifica', "/reports/edit/#{report.id}" %><br/>
+						<%= link_to 'Elimina', "/reports/destroy/#{report.id}",
+						:confirm => 'Are you sure?' %>
+					<% end %>
+					<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==report.society%>
+						<%= link_to 'Modifica', "/reports/edit/#{report.id}" %><br/>
+						<%= link_to 'Elimina', "/reports/destroy/#{report.id}",
+						:confirm => 'Are you sure?' %>
+					<% end %>	
+				</td>	
+				</tr>
 		<% end %>
 	<% end %>
+	</table>
+	<%= link_to 'Vedi tutti i comunicati', :controller=>:reports, :action=>:index %> 
+</div>
+	
+	<br>
+
+<div id="article-list">
+	<h1>Prossimi eventi dai circoli</h1>
+	<table cellpadding="5" cellspacing="0">
+	<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+		<% unless @articlescircoli.nil? %>
+			<% @articlescircoli.each do |article| %>
+				<tr>
+					<td> 
+						<%=h article.date.strftime("%d %B %y") %> -
+						<span class="list-title"><%=h article.society %> - <%= link_to article.title , "/articles/show/#{article.id}" %><br/></span>
+						<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
+					</td>
+		  		<td><%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %>
+		  		</td> 
+		  		<td class="list-actions">
+					<%if session[:user_id]!=nil and @user.admin=="si"%>
+						<%= link_to 'Modifica', "/articles/edit/#{article.id}" %><br />
+						<%= link_to 'Elimina', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
+					<% end %>
+					<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==article.society%>
+						<%= link_to 'Modifica', "/articles/edit/#{article.id}" %><br />
+						<%= link_to 'Elimina', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
+					<% end %>
+				</tr>
+			<% end %>
+		<% end %>
 </table>
 <%= link_to 'Vedi tutti gli eventi', :controller=>:articles, :action=>:index %> 
 </div>

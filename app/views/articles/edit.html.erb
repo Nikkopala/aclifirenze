@@ -1,11 +1,25 @@
+<% @page_title = "Modifica evento di".concat"#{@article.society}".concat"-".concat"#{@article.title}" %>
+
 <h1>Editing article</h1>
+
 <%= include_tiny_mce_if_needed %>
+
 <% form_for(@article, :html => { :multipart => true }) do |f|  %>
   <%= f.error_messages %>
-  <p>
-  	<%= f.label :circolo %><br />
-		<%= select_tag "article[society]", options_for_select(@circoli_a)  %>
-  </p>
+  
+  	<% if @user.admin=="si"%>
+		<p>
+    <%= f.label :society %><br />
+		<%= select_tag ('article[society]', options_for_select(@circoli_a) => :society)%>
+ 		</p>
+ 	<%end%>	
+  <% if @user.admin=="no"%>
+		<p>
+		<%= f.label :society %><br />
+		<%= select_tag ("article[society]", options_for_select(@user.society.to_a) => :society)%>
+		</p>
+  <%end%>	
+  
   <p>
     <%= f.label :titolo %><br />
     <%= f.text_field :title %>

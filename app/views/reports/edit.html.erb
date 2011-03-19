@@ -1,14 +1,25 @@
+<% @page_title = "Modifica comunicato di".concat"#{@report.society}".concat"-".concat"#{@report.title}" %>
+
+
 <h1>Editing report</h1>
 
  <%= include_tiny_mce_if_needed %>
 <% form_for(@report) do |f| %>
   <%= f.error_messages %>
 
+  	<% if @user.admin=="si"%>
+		<p>
+    <%= f.label :society %><br />
+		<%= select_tag "report[society]", options_for_select(@circoli_a) => :society%>
+ 		</p>
+ 	<%end%>	
+  <% if @user.admin=="no"%>
+		<p>
+		<%= f.label :society %><br />
+		<%= select_tag "report[society]", options_for_select(@user.society.to_a) => :society, :disabled => true%>
+		</p>
+  <%end%>	
 
-  <p>
-  	<%= f.label :society %><br />
-		<%= select_tag "report[society]", options_for_select(@circoli_a)  %>
-  </p>
   <p>
     <%= f.label :title %><br />
     <%= f.text_field :title %>

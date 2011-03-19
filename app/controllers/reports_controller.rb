@@ -1,5 +1,5 @@
 class ReportsController < ApplicationController
-  before_filter :authorize
+  before_filter :authorize, :except=>[:show, :index]
   uses_tiny_mce
   
   # GET /reports

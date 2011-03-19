@@ -14,7 +14,7 @@
 h1 {
         font:  150% sans-serif;
         color: #226;
-        border-bottom: 3px dotted #77d;
+        border-bottom: 1px groove #77d;
 }
 
 /* Styles for article */
@@ -76,19 +76,36 @@ h1 {
 
 /* Styles for main page */
 
+#container {
+	min-width:760px;
+	max-width:1200px;
+	
+	margin-left: auto ;
+	margin-right: auto ;
+	position:center;
+
+}
+
+body{
+	margin-top:	0px;
+}
+
+#header{
+	 margin:0px auto;
+	 overflow:hidden;
+	 min-width: 760px;
+}
+
 #banner {
-  background: #8F00FF;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-bottom: 2px solid;
-  font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  font: small-caps 20px/20px "Times New Roman", serif;
+  color: black;
   text-align: center;
 }
 
-#banner img {
-  float: left;
-}
 
 #columns {
   background: #141;
@@ -173,6 +190,16 @@ h1 {
   font-size: 12px;
   list-style: square;
 }
+
+/* END */
+
+/* STILI */
+
+img.center {
+   display: block;   
+   margin-left: auto;   
+   margin-right: auto; 
+ }
 
 .img_articolo
 {

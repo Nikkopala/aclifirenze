@@ -1,5 +1,5 @@
 class SocietiesController < ApplicationController
-	 before_filter :authorize
+	 before_filter :authorize, :except=>[:show, :index]
 	 
   # GET /societies
   # GET /societies.xml
@@ -73,18 +73,32 @@ class SocietiesController < ApplicationController
 
   # DELETE /societies/1
   # DELETE /societies/1.xml
-  def destroy
+  def destroy_society
     @society = Society.find(params[:id])
+    @article_to_destroy=Article.find_all_by_society(@society.society)
+    @article_to_destroy.each do |a|
+			a.destroy
+		end
+    @report_to_destroy=Report.find_all_by_society(@society.society)
+    @report_to_destroy.each do |r|
+			r.destroy    
+		end
+    @user_to_destroy=User.find_all_by_society(@society.society)
+    @user_to_destroy.each do |u|
+    	u.destroy
+    end
     @society.destroy
+    
 
     respond_to do |format|
       format.html { redirect_to(societies_url) }
       format.xml  { head :ok }
     end
   end
+  
    protected
   def authorize
-		unless User.find_by_id(session[:user_id]).admin=="si"
+		unless User.find_by_id(session[:user_id]) and @user.admin !="si"
 			flash[:notice]="Per favore effettua il login"
 			redirect_to(:controller =>:admin ,:action=>:login)
 	  end

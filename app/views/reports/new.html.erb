@@ -1,14 +1,27 @@
+<% @page_title = "Creazione nuovo comunicato" %>
+
+
 <h1>New report</h1>
  <%= include_tiny_mce_if_needed %>
 
 <% form_for(@report, :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
-
-  <p>
-  	<%= f.label :society %><br />
+  	<% if @user.admin=="si"%>
+  		<% @page_title = "Nuovo comunicato per ..." %>
+		<p>
+    <%= f.label :society %><br />
 		<%= select_tag "report[society]", options_for_select(@circoli_a) => :society%>
-  </p>
+ 		</p>
+ 	<%end%>	
+  <% if @user.admin=="no"%>
+    	<% @page_title = "Nuovo comunicato per ".concat"#{@user.society}" %>
+		<p>
+		<%= f.label :society %><br />
+		<%= select_tag "report[society]", options_for_select(@user.society.to_a) => :society, :disabled => true%>
+		</p>
+  <%end%>	
+  	
   <p>
     <%= f.label :title %><br />
     <%= f.text_field :title %>

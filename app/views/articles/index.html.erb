@@ -1,34 +1,47 @@
+<% @page_title = "Eventi delle acli" %>
+
+
 <div id="article-list">
 <h1>Eventi</h1>
 
-<table cellpadding="5" cellspacing="0">
-<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+	<table cellpadding="5" cellspacing="0">
+		<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
 
-<% @articles.each do |article| %>
-  <tr>
-	<td width="60%">
-	<span class="list-title"><%=h article.society %>-<%= link_to article.title , "/articles/show/#{article.id}" %><br/></span><br />
-	<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
-	</td>    
-	<td><%=h article.date.strftime("%d %B %y")%></td>
-    <td><%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %></td> 
-    <td class="list-actions">
-			<% unless session[:user_id]==nil %>
-				<%= link_to 'Show', "/articles/show/#{article.id}" %><br/>
-				<%= link_to 'Edit', "/articles/edit/#{article.id}" %><br/>
-				<%= link_to 'Destroy', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
+		<% @articles.each do |article| %>
+			<tr>
+				<td>
+					<span class="list-title">
+						<%=h article.society %> - <%= link_to article.title , "/articles/show/#{article.id}" %> <br />
+					</span>
+					<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
+				</td>    
+				<td>
+					<%=h article.date.strftime("%d %B %y")%>
+				</td>
+				<td>
+					<%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %>
+				</td> 
+				<td class="list-actions">
+					<%if session[:user_id]!=nil and @user.admin=="si"%>
+						<%= link_to 'Edit', "/articles/edit/#{article.id}" %><br />
+						<%= link_to 'Destroy', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
+					<% end %>
+					<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==article.society%>
+						<%= link_to 'Edit', "/articles/edit/#{article.id}" %><br />
+						<%= link_to 'Destroy', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
+					<% end %>
+				</td>
+			</tr>
 			<% end %>
-	</td>
-  </tr>
-<% end %>
-</table>
+		</tr>
+
+		
+	</table>
 </div>
 <br />
 <% unless session[:user_id]==nil %>
 	<%= link_to 'New article', new_article_path %>
-	<%= link_to 'Indietro', :controller=>:admin, :action=>:index %>
 <% end %>
-<% if session[:user_id]==nil %>
-	<%= link_to 'indietro', :controller=>:home, :action=>:index %> 
-<% end %>
+<%= link_to 'indietro', :controller=>:home, :action=>:index %> 
+
 

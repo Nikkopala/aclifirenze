@@ -24,7 +24,7 @@
     <%= f.text_field :password %>
   </p>
   <p>
-		Is Admin?: <%= check_box "user", "admin" %>
+		Is Admin?: <%= check_box("user", "admin", {}, "si", "no") %>
   </p>
   <p>
     <%= f.submit 'Create' %>
