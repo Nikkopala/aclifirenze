@@ -8,7 +8,10 @@
 				<tr>
 					<td width="60%">
 						<span class="list-title">
-							<%=h report.society %> - <%= link_to report.title , "/reports/show/#{report.id}" %>
+							<%=h report.society %> - <%= link_to report.title , "/reports/show/#{report.id}" %> 
+							<% if report.pdf_file_name != nil%>
+								<%= link_to image_tag ("pdf.gif"), {:action=>"send_pdf", :id => report.id} %>
+							<% end%>
 						</span><br />
 						<%= truncate(report.description.gsub(/<.*?>/,''), 80) %><br />
 					</td> 

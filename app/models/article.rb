@@ -8,4 +8,8 @@ class Article < ActiveRecord::Base
   	:styles => {
       :thumb=> "100x100#",
       :small  => "150x150>" }
+      
+  has_attached_file :pdf, 
+                    :styles => { :medium => "300x300>",
+                                 :thumb => "100x100>" }
 end

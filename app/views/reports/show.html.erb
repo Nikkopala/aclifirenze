@@ -13,8 +13,14 @@
 <p>
   <b>Description:</b>
   <%= @report.description%>
+  
+    <% if @report.pdf_file_name != nil%>
+  		<%= button_to "Scarica il pdf", { :action => "send_pdf", :id => @report.id} %>
+  	<% end %>
 </p>
 
 
+<%if (session[:user_id]!=nil and (@user.society==@report.society or   @user.admin=="si"))%>
 <%= link_to 'Edit', edit_report_path	 %> |
+<% end %>
 <%= link_to 'Back', reports_path %>

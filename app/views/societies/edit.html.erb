@@ -25,6 +25,14 @@
     <%= f.label :opening_time %><br />
     <%= f.text_field :opening_time %>
   </p>
+    <%= image_tag @society.photo.url(:thumb), :class=>"img_articolo" %>		  	<br />
+  	Immagine attuale: <%= @society.photo.url %>
+  </p>
+  
+	<p>
+		<%= f.label :photo%><br />
+		<%= f.file_field :photo %>
+	</p>
   <p>
     <%= f.submit 'Update' %>
   </p>

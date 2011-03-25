@@ -5,6 +5,12 @@ class ApplicationController < ActionController::Base
   layout "application"
   helper :all # include all helpers, all the time
   protect_from_forgery
+  
+    def send_pdf 
+  	@report = Report.find(params[:id])
+   	#send_data @article.pdf.url, :filename => ("pdf di".concat"#{@article.title}")
+   	redirect_to @report.pdf.url
+   end
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password

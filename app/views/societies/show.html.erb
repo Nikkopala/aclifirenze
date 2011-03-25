@@ -3,8 +3,10 @@
 <p>
   <b>Society:</b>
   <%=h @society.society %>
+  </ br>
+  <b>Immagine:</b>
+  <%= image_tag @society.photo.url(:big), :class=>"img_articolo" %>
 </p>
-
 <p>
   <b>Base:</b>
   <%=h @society.base %>
@@ -25,6 +27,7 @@
   <%=h @society.opening_time %>
 </p>
 
-
-<%= link_to 'Edit', edit_society_path(@society) %> |
+<%if (session[:user_id]!=nil and @user.admin=="si")%>
+	<%= link_to 'Edit', edit_society_path(@society) %> |
+<% end %>
 <%= link_to 'Back', societies_path %>

@@ -30,6 +30,11 @@
     <%= f.label :description %><br />
      <%= f.text_area :description, :class => "mceEditor"%>
   </p>
+  
+ 	<p>
+	 <%= f.label :pdf%><br />
+		 <%= f.file_field :pdf %><br/>
+	</p>
   <p>
     <%= f.submit 'Create' %>
   </p>

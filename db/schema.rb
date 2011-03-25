@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 8) do
+ActiveRecord::Schema.define(:version => 10) do
 
   create_table "articles", :force => true do |t|
     t.string   "society"
@@ -22,6 +22,10 @@ ActiveRecord::Schema.define(:version => 8) do
     t.string   "photo_file_name"
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
+    t.string   "pdf_file_name"
+    t.string   "pdf_content_type"
+    t.integer  "pdf_file_size"
+    t.datetime "pdf_updated_at"
   end
 
   create_table "reports", :force => true do |t|
@@ -30,6 +34,10 @@ ActiveRecord::Schema.define(:version => 8) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "pdf_file_name"
+    t.string   "pdf_content_type"
+    t.integer  "pdf_file_size"
+    t.datetime "pdf_updated_at"
   end
 
   create_table "sessions", :force => true do |t|

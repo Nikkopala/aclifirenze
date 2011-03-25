@@ -1,7 +1,5 @@
 <% @page_title = "vedi dopo " %>
 
-<h1>New article</h1>
-
  <%= include_tiny_mce_if_needed %>
 
 <% form_for(@article, :html => { :multipart => true }) do |f| %>
@@ -43,6 +41,11 @@
     <%= f.label :photo %><br />
     <%= f.file_field :photo %>
   </p>
+  
+ 	<p>
+	 <%= f.label :pdf%><br />
+		 <%= f.file_field :pdf %><br/>
+	</p>
   <p>
     <%= f.submit 'Create' %>
   </p>

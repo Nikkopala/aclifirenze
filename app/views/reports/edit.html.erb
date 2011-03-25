@@ -1,26 +1,25 @@
 <% @page_title = "Modifica comunicato di".concat"#{@report.society}".concat"-".concat"#{@report.title}" %>
 
-
-<h1>Editing report</h1>
-
- <%= include_tiny_mce_if_needed %>
-<% form_for(@report) do |f| %>
+<%= include_tiny_mce_if_needed %>
+ 
+<% form_for(@report,  :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
-  	<% if @user.admin=="si"%>
+	<% if @user.admin=="si"%>
 		<p>
-    <%= f.label :society %><br />
+	  <%= f.label :society %><br />
 		<%= select_tag "report[society]", options_for_select(@circoli_a) => :society%>
  		</p>
- 	<%end%>	
-  <% if @user.admin=="no"%>
+	<% end%>	
+	<% if @user.admin=="no"%>
 		<p>
 		<%= f.label :society %><br />
 		<%= select_tag "report[society]", options_for_select(@user.society.to_a) => :society, :disabled => true%>
 		</p>
-  <%end%>	
+	<%end%>	
 
   <p>
+  	:url => "/reports/edit/#{@report.id}", provA
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </p>
@@ -30,16 +29,20 @@
     <%= f.text_area :description, :class => "mceEditor"%>
   </p>
 
-
   <p>
-    <%= f.submit 'Update' %>
-  </p>
-<% end %>
-  <p>
-	  <% form_for (:report, :url => "/reports/edit/#{@report.id}", :html => { :multipart => true }) do |l| %>
-		  <%= l.file_field :photo%>
-		  <%= l.submit 'Update' %>
-		<% end %> 
+  	 <%= f.label :pdf%><br />
+		 <%= f.file_field :pdf %><br/>
 	</p>
+	
+  <p>	
+   <%= f.label :photo%><br />
+	 <%= f.file_field :photo%><br/>
+	</p>
+
+	<p>	
+		<%= f.submit 'Update' %>
+	</p>
+<%end%>
+	
 <%= link_to 'Show', @report %> |
 <%= link_to 'Back', reports_path %>

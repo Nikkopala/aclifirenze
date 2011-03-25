@@ -26,6 +26,10 @@
     <%= f.text_field :opening_time %>
   </p>
   <p>
+    <%= f.label :photo %><br />
+    <%= f.file_field :photo %>
+  </p>
+  <p>
     <%= f.submit 'Create' %>
   </p>
 <% end %>

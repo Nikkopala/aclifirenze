@@ -95,6 +95,12 @@ class ReportsController < ApplicationController
     end
   end
   
+	def send_pdf 
+  	@report = Report.find(params[:id])
+   	#send_data @article.pdf.url, :filename => ("pdf di".concat"#{@article.title}")
+   	redirect_to @report.pdf.url
+	end
+  
   protected
   def authorize
 		unless User.find_by_id(session[:user_id])

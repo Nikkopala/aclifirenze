@@ -5,5 +5,5 @@ class HomeController < ApplicationController
 		@articlescircoli = Article.find(:all, :conditions => ['date >= ? ', Time.now], :order => :date, :limit => 10)
 		
 	end
-	
+
 end

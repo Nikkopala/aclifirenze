@@ -2,7 +2,6 @@
 
 
 <div id="article-list">
-<h1>Eventi</h1>
 
 	<table cellpadding="5" cellspacing="0">
 		<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
@@ -11,7 +10,7 @@
 			<tr>
 				<td>
 					<span class="list-title">
-						<%=h article.society %> - <%= link_to article.title , "/articles/show/#{article.id}" %> <br />
+						<%=h article.society %> - <%= link_to article.title , "/articles/show/#{article.id}"%> - <%= link_to image_tag ("pdf.gif"), {:action=>"send_pdf", :id => article.id} %> <br />
 					</span>
 					<%= truncate(article.description.gsub(/<.*?>/,''), 80) %><br />
 				</td>    
@@ -26,7 +25,7 @@
 						<%= link_to 'Edit', "/articles/edit/#{article.id}" %><br />
 						<%= link_to 'Destroy', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
 					<% end %>
-					<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==article.society%>
+					<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==@article.society%>
 						<%= link_to 'Edit', "/articles/edit/#{article.id}" %><br />
 						<%= link_to 'Destroy', "/articles/destroy/#{article.id}",	:confirm => 'Sei sicuro?' %>
 					<% end %>

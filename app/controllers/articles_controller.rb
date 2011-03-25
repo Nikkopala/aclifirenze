@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_filter :authorize, :except=>[:show, :index]
+  before_filter :authorize, :except=>[:show, :index, :send_pdf]
   uses_tiny_mce
   
   # GET /articles
@@ -100,6 +100,12 @@ class ArticlesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  def send_pdf 
+  	@article = Article.find(params[:id])
+   	#send_data @article.pdf.url, :filename => ("pdf di".concat"#{@article.title}")
+   	redirect_to @article.pdf.url
+   end
   
   protected
   def authorize

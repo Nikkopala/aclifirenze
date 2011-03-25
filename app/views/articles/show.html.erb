@@ -23,8 +23,12 @@
 <p>
   <b>Immagine:</b>
   <%= image_tag @article.photo.url(:thumb), :class=>"img_articolo" %>
+  	<% if @article.pdf_file_name != nil%>
+			<%= button_to "Scarica il pdf", { :action => "send_pdf", :id => @article.id} %>
+		<% end%>
 </p>
 
-
+<%if (session[:user_id]!=nil and (@user.society==@article.society or  @user.admin=="si"))%>
 <%= link_to 'Edit', edit_article_path	 %> |
+<% end%>
 <%= link_to 'Back', articles_path %>

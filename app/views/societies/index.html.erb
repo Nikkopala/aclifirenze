@@ -18,6 +18,7 @@
     <td><%=h society.email %></td>
     <td><%=h society.tel %></td>
     <td><%=h society.opening_time %></td>
+    <td> <%= image_tag society.photo.url(:thumb), :class => 'img_articolo' %> </td> 
     <td class="list-actions">
 					<% if session[:user_id]!=nil and @user.admin == "si" %> 
 						<%= link_to 'Edit', :controller => :societies, :action => :edit, :id => society.id %><br />
@@ -33,5 +34,7 @@
 
 <br />
 
+<%if (session[:user_id]!=nil and @user.admin=="si")%>
 <%= link_to 'New society', new_society_path %>
+<% end %>
 <%= link_to 'Back', :controller=>:admin, :action=>:index %>
