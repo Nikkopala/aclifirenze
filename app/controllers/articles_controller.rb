@@ -49,12 +49,10 @@ class ArticlesController < ApplicationController
     	@circoli_a << c.society
     end
     if request.post?
-#   	render :text => params[:article].inspect
     	unless params[:article][:photo].nil?
 		  	@article.photo = params[:article][:photo]
 		  	@article.save!
 		  end
-#    	redirect_to "/articles/show/#{@article.id}"
     end
   end
 

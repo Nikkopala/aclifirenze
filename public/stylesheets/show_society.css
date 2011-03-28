@@ -1,0 +1,12 @@
+.info {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  color: black;
+  text-align: left;
+}
+.immagine {
+	min-width:410px;	
+	max-width:410px;
+	float: left;
+	}

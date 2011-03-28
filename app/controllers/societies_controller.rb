@@ -16,6 +16,9 @@ class SocietiesController < ApplicationController
   # GET /societies/1.xml
   def show
     @society = Society.find(params[:id])
+    
+    @reportsociety = Report.find_all_by_society(@society.society)
+    @articlesociety = Article.find_all_by_society("#{@society.society}")
 
     respond_to do |format|
       format.html # show.html.erb
@@ -36,7 +39,7 @@ class SocietiesController < ApplicationController
 
   # GET /societies/1/edit
   def edit
-    @society = Society.find(params[:id])
+    @society = Society.find_by_id(params[:id])
   end
 
   # POST /societies
@@ -60,15 +63,19 @@ class SocietiesController < ApplicationController
   def update
     @society = Society.find(params[:id])
 
-    respond_to do |format|
-      if @society.update_attributes(params[:society])
-        format.html { redirect_to(@society, :notice => 'Society was successfully updated.') }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @society.errors, :status => :unprocessable_entity }
-      end
-    end
+	  unless params[:society][:photo].nil?
+		 	@society.photo = params[:society][:photo]
+		 	@society.save!
+		  respond_to do |format|
+		    if @society.update_attributes(params[:society])
+		      format.html { redirect_to(@society, :notice => 'Society was successfully updated.') }
+		      format.xml  { head :ok }
+		    else
+		      format.html { render :action => "edit" }
+		      format.xml  { render :xml => @society.errors, :status => :unprocessable_entity }
+		    end
+		  end
+		end
   end
 
   # DELETE /societies/1
@@ -98,7 +105,7 @@ class SocietiesController < ApplicationController
   
    protected
   def authorize
-		unless User.find_by_id(session[:user_id]) and @user.admin !="si"
+		unless User.find_by_id(session[:user_id]) and @user.admin =="si"
 			flash[:notice]="Per favore effettua il login"
 			redirect_to(:controller =>:admin ,:action=>:login)
 	  end

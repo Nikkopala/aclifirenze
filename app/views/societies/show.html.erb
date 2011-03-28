@@ -1,33 +1,79 @@
 <% @page_title = "Circolo acli ".concat "#{@society.society}" %>
 
-<p>
-  <b>Society:</b>
-  <%=h @society.society %>
-  </ br>
-  <b>Immagine:</b>
-  <%= image_tag @society.photo.url(:big), :class=>"img_articolo" %>
-</p>
-<p>
-  <b>Base:</b>
-  <%=h @society.base %>
-</p>
 
-<p>
-  <b>Email:</b>
-  <%=h @society.email %>
-</p>
 
-<p>
-  <b>Tel:</b>
-  <%=h @society.tel %>
-</p>
+<div class="circoli">
+	
+	<div class="immagine">	
+		<%= image_tag @society.photo.url(:big), :class=>"img_articolo" %>
+	</div>
+	
+	<div class="info">
+		<p>
+			<b>Circolo:</b>
+			<%=h @society.society %>
+		 </p>
+		 
+		<p>
+			<b>Indirizzo:</b>
+			<%=h @society.base %>
+		</p>
 
-<p>
-  <b>Opening time:</b>
-  <%=h @society.opening_time %>
-</p>
+		<p>
+			<b>Email:</b>
+			<%=h @society.email %>
+		</p>
 
-<%if (session[:user_id]!=nil and @user.admin=="si")%>
-	<%= link_to 'Edit', edit_society_path(@society) %> |
-<% end %>
-<%= link_to 'Back', societies_path %>
+		<p>
+			<b>Tel:</b>
+			<%=h @society.tel %>
+		</p>
+
+		<p>
+			<b>Orario di apertura:</b>
+			<%=h @society.opening_time %>
+		</p>
+	</div>	
+
+	#I report del circolo in questione
+	<div id="article-list">
+	<table cellpadding="5" cellspacing="0">
+	<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>">
+		<% unless @reportsociety.nil? %>
+			<% @reportsociety.each do |report| %>
+				<tr>
+					<td>
+						<span class="list-title"><%=h report.society %> - <%= link_to report.title , "/reports/show/#{report.id}" %>					
+						<% if report.pdf_file_name != nil%>
+								 <%= link_to image_tag ("pdf.gif"), {:metod=>:report, :action=>"send_pdf", :id => report.id} %>
+						<% end%>
+						</span><br />
+						<%= truncate(report.description.gsub(/<.*?>/,''), 80) %>
+
+						<br />
+					</td>
+					<td class="list-actions">
+						<%if session[:user_id]!=nil and @user.admin=="si"%>
+							<%= link_to 'Modifica', "/reports/edit/#{report.id}" %><br/>
+							<%= link_to 'Elimina', "/reports/destroy/#{report.id}",
+							:confirm => 'Are you sure?' %>
+						<% end %>
+						<%if session[:user_id]!=nil and @user.admin=="no" and @user.society==report.society%>
+							<%= link_to 'Modifica', "/reports/edit/#{report.id}" %><br/>
+							<%= link_to 'Elimina', "/reports/destroy/#{report.id}",
+							:confirm => 'Are you sure?' %>
+						<% end %>	
+					</td>	
+				</tr>
+		<% end %>
+	<% end %>
+	</table>
+	
+	</div>
+	<div id="article-list">
+	</div>
+	<%if (session[:user_id]!=nil and @user.admin=="si")%>
+		<%= link_to 'Edit', edit_society_path(@society) %> |
+	<% end %>
+	<%= link_to 'Back', societies_path %>
+

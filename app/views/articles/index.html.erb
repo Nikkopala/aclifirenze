@@ -18,7 +18,7 @@
 					<%=h article.date.strftime("%d %B %y")%>
 				</td>
 				<td>
-					<%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %>
+					<%= image_tag article.photo.url(:thumb), :class => 'img_articolo' %> </td> 
 				</td> 
 				<td class="list-actions">
 					<%if session[:user_id]!=nil and @user.admin=="si"%>
@@ -31,10 +31,8 @@
 					<% end %>
 				</td>
 			</tr>
-			<% end %>
-		</tr>
-
-		
+			<%end %>
+		</tr>		
 	</table>
 </div>
 <br />

@@ -2,7 +2,7 @@
 
 <h1>Editing society</h1>
 
-<% form_for(@society) do |f| %>
+<% form_for(@society, :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -25,12 +25,14 @@
     <%= f.label :opening_time %><br />
     <%= f.text_field :opening_time %>
   </p>
+  
+  <p>
     <%= image_tag @society.photo.url(:thumb), :class=>"img_articolo" %>		  	<br />
   	Immagine attuale: <%= @society.photo.url %>
   </p>
   
 	<p>
-		<%= f.label :photo%><br />
+		<%= f.label :photo %><br />
 		<%= f.file_field :photo %>
 	</p>
   <p>
